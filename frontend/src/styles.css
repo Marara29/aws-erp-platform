@@ -1,0 +1,48 @@
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #0f172a;
+  background: #6b9ed2;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+button {
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+  background: rgb(238, 231, 231);
+  padding: 8px 12px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+button.active {
+  background: #bcbcbe;
+  border-color: #2563eb;
+  color: white;
+}
+
+pre {
+  background: #0f172a;
+  color: #84b0e9;
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: auto;
+}
