@@ -198,6 +198,13 @@ aws-erp-platform/
 
 ---
 
+## Live Demo
+(http://18.222.123.45:8000/docs)
+
+<img width="1511" height="856" alt="Screenshot 2026-04-29 051952" src="https://github.com/user-attachments/assets/f73299f2-6d05-49b3-b1cd-6a7175962f8d" />
+
+<img width="1894" height="324" alt="Screenshot 2026-04-29 051931" src="https://github.com/user-attachments/assets/5ce2fd8a-56fe-4d9e-9010-9b44397c0846" />
+
 
 
 ## Author
