@@ -6,8 +6,11 @@ from pydantic import BaseModel
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import SQLAlchemyError
 import os
-DATABASE_URL=postgresql://erp_user:Rugaga10@erp-db.cp88iay06kfh.us-east-2.rds.amazonaws.com:5432/postgres
 
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+if not DATABASE_URL:
+    raise RuntimeError("DATABASE_URL environment variable is not set")
 
 engine = create_engine(DATABASE_URL, pool_pre_ping=True)
 
