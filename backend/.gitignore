@@ -1,0 +1,25 @@
+# Environment variables
+.env
+.env.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# AWS / SSH
+*.pem
+*.key
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
