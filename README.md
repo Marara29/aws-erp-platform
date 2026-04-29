@@ -199,7 +199,7 @@ aws-erp-platform/
 ---
 
 ## Live Demo
-(http://18.222.123.45:8000/docs)
+(http://3.140.100.242:8000/docs)
 
 <img width="1511" height="856" alt="Screenshot 2026-04-29 051952" src="https://github.com/user-attachments/assets/f73299f2-6d05-49b3-b1cd-6a7175962f8d" />
 
